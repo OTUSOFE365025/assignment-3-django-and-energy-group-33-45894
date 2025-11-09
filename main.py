@@ -23,6 +23,9 @@ from db.models import *
 ## START OF APPLICATION
 ############################################################################
 # Seed a few products in the database
+#Product.objects.create(upc='1000', name='cream', price='2.99')
+#Product.objects.create(upc='2000', name='flour', price='5.99')
+#Product.objects.create(upc='3000', name='meat', price='12.79')
 
 #given upc from the gui, return the name and price
 def lookup(upc):
