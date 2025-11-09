@@ -22,11 +22,15 @@ from db.models import *
 ############################################################################
 ## START OF APPLICATION
 ############################################################################
-""" Replace the code below with your own """
+# Seed a few products in the database
+#Product.objects.create(upc='1000', name='cream', price='2.99')
+#Product.objects.create(upc='2000', name='flour', price='5.99')
+#Product.objects.create(upc='3000', name='meat', price='12.79')
 
-# Seed a few users in the database
-User.objects.create(name='Dan')
-User.objects.create(name='Robert')
-
-for u in User.objects.all():
-    print(f'ID: {u.id} \tUsername: {u.name}')
+#given upc from the gui, return the name and price
+def lookup(upc):
+    try:
+        product = Product.objects.get(upc=upc)
+        return(product.name, product.price)
+    except Product.DoesNotExist:
+        return("Not Found", 0.00)
