@@ -1,6 +1,6 @@
 <h1>Excercise 1</h1>
 <h2>Repository Overview</h2>
-This repository contains a simple Django-based product lookup system with a Tkinter front-end. You can run it with <i>python gui.py</i> <br>
+This repository contains a simple Django-based product lookup system with a Tkinter front-end. You can run it with <i>python gui.py</i> <br><br>
 
 DATABASE <br>
 We defined a Product Entity in <b>db/models.py</b> consisting of a upc as the primary key, a product name and a product price.
