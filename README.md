@@ -14,3 +14,15 @@ GUI <br>
 We decided to use TKinter for the UI. We created the view file called <b>gui.py</b> and inside we have an entry box for the UPC, a submit button, a text section for the reciept and a label at the bottom for the running total. We get the upc from the user, and output the results from our lookup function in the controller.
     
 <h2>Application Demonstration</h2>
+<ol>
+    <li>Start the program</li>
+    <img width="124" height="25" alt="image" src="https://github.com/user-attachments/assets/c9e79859-35da-4f53-bcc1-50a5bac60c69" /><br>
+    <li>Enter a UPC</li>
+    <img width="498" height="319" alt="image" src="https://github.com/user-attachments/assets/766c7c3a-7815-465b-a91c-a967f472d5c9" /><br>
+    <li>Click Scan</li>
+    <img width="500" height="324" alt="image" src="https://github.com/user-attachments/assets/d6c02621-ccfd-41ad-a2aa-078408b30d91" /><br>
+    <li>Repeat</li>
+    <img width="502" height="322" alt="image" src="https://github.com/user-attachments/assets/8b45dbc5-0564-4c62-b1ad-d4fb87fe7c9a" /><br>
+    <li>Handling for invalid upc</li>
+    <img width="501" height="319" alt="image" src="https://github.com/user-attachments/assets/89cc473e-2e77-4b1d-9949-8f33c533200e" />
+</ol>
